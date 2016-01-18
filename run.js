@@ -91,18 +91,19 @@ app.use(express.static(path.join(__dirname, "fonts")));
  * Routes
  */
 app.get("/home", views.index);
+//
 app.get("/bookings", views.bookings);
-// JSON API
-app.get("/api/jobs", api.jobs);
-// JSON API
-app.get("/api/experience", api.experience);
-
-
+//
 app.get("/", function (req, res) {
   "use strict";
   res.redirect("/home");
 });
-
+/**
+ *  JSON API
+ */
+app.get("/api/booking", api.booking);
+//
+app.get("/api/timeslots", api.timeslots);
 /**
  * Start Server
  */
