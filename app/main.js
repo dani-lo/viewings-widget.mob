@@ -3,7 +3,7 @@
 	var RDHub 	= require("./lib/RDHub"),
 		RDEvent	= require("./lib/RDEvent");
 	//
-	var HomePage 		= require("./pages/Index.page"),
+	var HomePage 		= require("./pages/Home.page"),
 		BookingsPage	= require("./pages/Bookings.page");
 	//
 	var AppHeader	= require('./widget/Header.widget');
@@ -29,8 +29,8 @@
 	function appHomeRouteAction () {
 		//
 		var pageHome = new HomePage({
-			title: "Bookings Home Page"
-			outer: document.getElementById("bookings-home")
+			title: "Bookings Home Page",
+			outer: document.getElementById("viewings-home")
 		});
 
 		loadAppPageView(pageHome);
@@ -40,7 +40,7 @@
 		//
 		var pageCv = new BookingsPage({
 			title: "Bookings bookings Page",
-			outer: document.getElementById("devint-bookings")
+			outer: document.getElementById("viewings-bookings")
 		});
 
 		loadAppPageView(pageCv);

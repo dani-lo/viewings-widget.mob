@@ -30,13 +30,6 @@ var BtnHeaderActions= React.createClass({
 		RDHub.appRouter.navigate("/app/home");
 	},
 	//
-	goToLogout: function(ev) {
-		//
-		ev.preventDefault();
-
-		RDHub.appRouter.hard("/logout");
-	},
-	//
 	render: function() {
 		//
 		var btnBackClassname = classNames({
@@ -47,7 +40,6 @@ var BtnHeaderActions= React.createClass({
 		return (
 			<p className="header-btn">
 				<a className={btnBackClassname} href="#_" onClick={this.goToHome}>Home</a>
-				<a className="btn" href="#_" onClick={this.goToLogout}>Logout</a>
 			</p>
 		);
 	}

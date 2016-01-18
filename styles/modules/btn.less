@@ -31,19 +31,22 @@
 }
 .btn-large {
     display: block;
-    padding: 32px 24px;
-    text-align: center;
+    padding: 87px 0;
     background: @color_grey_darkest;
-    width: 450px;
-    font-size: 3em;
-    text-decoration: none;
+    width: 89%;
+    font-size: 64px;
     color: @color_blue_light;
-    margin: 12px auto;
+    margin: 0;
     border-radius: 8px;
 
     &:hover {
         background: @color_blue_light;
         color: @color_grey_darkest;
+    }
+
+    &.btn-home-viewings {
+        margin: 0 2%;
+        width: 96%;
     }
 }
 
@@ -60,8 +63,11 @@ button.btn-primary {
     }
 }
 
-.home-btn {
-    padding: 80px;
+.viewings-btn {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
 }
 .header-btn {
     

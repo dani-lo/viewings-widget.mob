@@ -5,9 +5,6 @@ var React = require('react'),
 //
 var RDPage			= require('../lib/RDPage');
 //
-var LoginForm = require('../dom/form/LoginForm.react');
-//
-//
 class LoginPage extends RDPage{
 	//
 	constructor (options) {
@@ -17,9 +14,9 @@ class LoginPage extends RDPage{
 	//
 	mount () {
 		//
-		var domLoginFormTarget = document.getElementById('devint-login-form');
+		//var domLoginFormTarget = document.getElementById('devint-login-form');
 		//
-		ReactDOM.render(<LoginForm/>, domLoginFormTarget);
+		//ReactDOM.render(<LoginForm/>, domLoginFormTarget);
 	}
 	
 }
