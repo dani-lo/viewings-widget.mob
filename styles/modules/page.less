@@ -1,0 +1,24 @@
+body {
+	background: @color_red_dark;
+}
+//
+
+.page-outer {
+	//
+	.transit(opacity, 0.5s);
+	.opaque(0, 0);
+
+	&.is-loaded {
+		.opaque(100, 1);
+	}
+
+	&.is-unloaded {
+		.opaque(0, 0);
+	}
+
+	width: 80%;
+	margin: 0 auto;
+	@media only screen 	and (max-device-width : 600px) {
+		width: 96%;
+	}
+}

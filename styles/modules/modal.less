@@ -1,0 +1,40 @@
+.modal {
+	position: fixed;
+	width:100%;
+	height: 0;
+	z-index: 12;
+	.inner-modal {
+		position: relative;
+		top: -120px;
+		opacity: 0;
+		.transit(all, 0.2s);
+
+		&.viz-show {
+			opacity: 1;
+			top: 12px;
+		}
+
+		p {
+		    background: @color_white;
+		    margin: 0 auto;
+			width: 200px;
+		    border: 6px solid @color_green_dark;
+		    padding: 22px;
+		    font-size: 1.3em;
+		    border-radius: 12px;
+		    line-height: 1.5em;
+		}
+
+		&.modal-error {
+			p {
+				border-color: @color_red_dim;
+			}
+		}
+
+		&.modal-success {
+			p {
+				border-color: @color_green_dark;
+			}
+		}
+	}
+}

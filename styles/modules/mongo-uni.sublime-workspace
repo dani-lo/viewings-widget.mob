@@ -1,0 +1,525 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"on",
+				"onRuteChange"
+			],
+			[
+				"color_pi",
+				"color_pink_dark"
+			],
+			[
+				"setT",
+				"setTimeout"
+			],
+			[
+				"get",
+				"getInstance"
+			],
+			[
+				"route",
+				"routeAction"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"log",
+				"logonModel"
+			],
+			[
+				"valid",
+				"validemail"
+			],
+			[
+				"cl",
+				"classNames"
+			],
+			[
+				"class",
+				"classnames"
+			],
+			[
+				"color",
+				"ColorsSet"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-unordered-duperemoved.js",
+			"settings":
+			{
+				"buffer_size": 740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 24 files for \"insert\"\n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-ordered-imdb-ids.js:\n    1: db.moviesScratch.insertMany(\n    2      [\n    3          {\n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-ordered.js:\n    1: db.moviesScratch.insertMany(\n    2      [\n    3          {\n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-unordered-duperemoved.js:\n    1: db.moviesScratch.insertMany(\n    2      [\n    3          {\n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-unordered.js:\n    1: db.moviesScratch.insertMany(\n    2      [\n    3          {\n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertOne.js:\n    1: db.moviesScratch.insertOne({ \"title\": \"Rocky\", \"year\": \"1976\", \"imdb\": \"tt0075148\"});\n    2: db.moviesScratch.insertOne({ \"_id\": \"tt0075148\", \"title\": \"Rocky\", \"year\": \"1976\" });\n    3  \n\n/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/updating_documents/updating_documents/updating_documents/updatingDocuments.js:\n  135  \n  136  \n  137: db.reviews.insertMany([\n  138      { rating: 2.5,\n  139        date: ISODate(\"2015-10-26T04:00:00Z\"),\n\n7 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 1706,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "{\n	\"_id\" : ObjectId(\"5692a3a324de1e0ce2dfd9bc\"),\n	\"title\" : \"What If\",\n	\"year\" : 2013,\n	\"rated\" : \"PG-13\",\n	\"released\" : ISODate(\"2014-08-15T04:00:00Z\"),\n	\"runtime\" : 98,\n	\"countries\" : [\n		\"Ireland\",\n		\"Canada\"\n	],\n	\"genres\" : [\n		\"Comedy\",\n		\"Romance\"\n	],\n	\"director\" : \"Michael Dowse\",\n	\"writers\" : [\n		\"Elan Mastai\",\n		\"T.J. Dawe\",\n		\"Michael Rinaldi\"\n	],\n	\"actors\" : [\n		\"Daniel Radcliffe\",\n		\"Zoe Kazan\",\n		\"Megan Park\",\n		\"Adam Driver\"\n	],\n	\"plot\" : \"Wallace, who is burned out from a string of failed relationships, forms an instant bond with Chantry, who lives with her longtime boyfriend. Together, they puzzle out what it means if your best friend is also the love of your life.\",\n	\"poster\" : \"http://ia.media-imdb.com/images/M/MV5BMTcyODc4Njg4OF5BMl5BanBnXkFtZTgwNDIwNDA4MTE@._V1_SX300.jpg\",\n	\"imdb\" : {\n		\"id\" : \"tt1486834\",\n		\"rating\" : 6.8,\n		\"votes\" : 43012\n	},\n	\"tomato\" : {\n		\"meter\" : 70,\n		\"image\" : \"fresh\",\n		\"rating\" : 6.3,\n		\"reviews\" : 113,\n		\"fresh\" : 79,\n		\"consensus\" : \"Its narrative framework may be familiar, but What If transcends its derivative elements with sharp dialogue and the effervescent chemistry of stars Daniel Radcliffe and Zoe Kazan.\",\n		\"userMeter\" : 70,\n		\"userRating\" : 3.6,\n		\"userReviews\" : 24107\n	},\n	\"metacritic\" : 59,\n	\"awards\" : {\n        \"oscars\" : [\n            {\"award\": \"bestAnimatedFeature\", \"result\": \"won\"},\n            {\"award\": \"bestMusic\", \"result\": \"won\"},\n            {\"award\": \"bestPicture\", \"result\": \"nominated\"},\n            {\"award\": \"bestSoundEditing\", \"result\": \"nominated\"},\n            {\"award\": \"bestScreenplay\", \"result\": \"nominated\"}\n        ],\n        \"wins\" : 56,\n        \"nominations\" : 86,\n        \"text\" : \"Won 2 Oscars. Another 56 wins and 86 nominations.\"\n    },\n	\"type\" : \"movie\"\n}",
+			"settings":
+			{
+				"buffer_size": 1767,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Pack",
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 159.0,
+		"history":
+		[
+			"sublime.packages_path()",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ls",
+			"pwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dani/Documents/mongo-uni",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/array_operators/array_operators",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/array_operators/array_operators/array_operators",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/dump",
+		"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/dump/video"
+	],
+	"file_history":
+	[
+		"/Users/dani/www/cv-react/app/views/layout.jade",
+		"/Users/dani/www/cv-react/app/styles/modules/header.less",
+		"/Users/dani/www/cv-react/app/app/dom/btn/BtnHeaderActions.react.js",
+		"/Users/dani/www/cv-react/app/specs/App-spec.js",
+		"/Users/dani/www/cv-react/app/app/util/router.js",
+		"/Users/dani/www/cv-react/app/app/pages/Login.page.js",
+		"/Users/dani/www/cv-react/app/app/main.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDPage.js",
+		"/Users/dani/www/cv-react/app/app/dom/form/LoginForm.react.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDHub.js",
+		"/Users/dani/www/cv-react/app/views/partials/home.jade",
+		"/Users/dani/www/cv-react/app/views/login.jade",
+		"/Users/dani/www/cv-react/app/views/index.jade",
+		"/Users/dani/www/cv-react/app/app/pages/Home.page.js",
+		"/Users/dani/www/cv-react/app/app/dom/btn/BtnHomeActions.react.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDWidget.js",
+		"/Users/dani/www/cv-react/app/run.js",
+		"/Users/dani/www/cv-react/app/routes/views.js",
+		"/Users/dani/www/cv-react/app/app/dom/widget/Header.widget.js",
+		"/Users/dani/www/cv-react/app/gulpfile.js",
+		"/Users/dani/www/cv-react/app/app/pages/Cv.page.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDCollect.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDConfig.js",
+		"/Users/dani/www/cv-react/app/app/dom/list/ListCv.react.js",
+		"/Users/dani/www/cv-react/app/app/dom/list/ListXp.react.js",
+		"/Users/dani/www/cv-react/app/package.json",
+		"/Users/dani/www/cv-react/app/app/pages/Xp.page.js",
+		"/Users/dani/www/cv-react/app/app/dom/widget/Modal.widget.js",
+		"/Users/dani/www/cv-heroku/src/scripts/main.js",
+		"/Users/dani/www/cv-react/app/README.md",
+		"/Users/dani/www/cv-react/app/styles/modules/modal.less",
+		"/Users/dani/www/cv-react/app/styles/app/var.less",
+		"/Users/dani/www/cv-react/app/local_modules/conf.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDBridge.js",
+		"/Users/dani/www/cv-react/app/app/util/finder.js",
+		"/Users/dani/www/cv-react/app/build/main.js",
+		"/Users/dani/www/cv-react/app/app/dom/btn/BtnLike.react.js",
+		"/Users/dani/www/cv-react/app/app/data/ColorsSet.react.js",
+		"/Users/dani/www/cv-react/app/styles/modules/typography.less",
+		"/Users/dani/www/cv-react/app/app/dom/form/fields/LoginFields.react.js",
+		"/Users/dani/www/cv-react/app/app/util/valid.js",
+		"/Users/dani/www/cv-react/app/styles/modules/form.less",
+		"/Users/dani/www/cv-react/app/styles/app/mix.less",
+		"/Users/dani/www/cv-react/app/styles/modules/util.less",
+		"/Users/dani/www/cv-react/app/styles/main.less",
+		"/Users/dani/www/cv-react/app/app/dom/page/Login.page.js",
+		"/Users/dani/www/cv-react/app/styles/var.less",
+		"/Users/dani/www/cv-react/app/styles/mix.less",
+		"/Users/dani/www/cv-react/app/styles/func.less",
+		"/Users/dani/www/cv-react/app/styles/app/modal.less",
+		"/Users/dani/www/cv-react/app/styles/modules/btn.less",
+		"/Users/dani/www/cv-react/app/styles/app/func.less",
+		"/Users/dani/www/cv-react/app/styles/reset.less",
+		"/Users/dani/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dani/www/cv-react/app/styles/modules/button.less",
+		"/Users/dani/www/cv-react/app/styles/modules/reset.less",
+		"/Users/dani/www/cv-react/app/app/dom/page/App.react.js",
+		"/Users/dani/www/cv-react/app/dist/index.html",
+		"/Users/dani/www/cv-react/app/local_modules/hello.js",
+		"/Users/dani/www/cv-react/app/app/dom/form/GenForm.react.js",
+		"/Users/dani/www/cv-react/app/app/dom/form/element/InputText.react.js",
+		"/Users/dani/www/cv-react/app/app/dom/btn/BtnSubmit.react.js",
+		"/Users/dani/www/cv-react/app/build/index.html",
+		"/Users/dani/www/cv-heroku/app.js",
+		"/Users/dani/www/cv-react/app/app/lib/util.js",
+		"/Users/dani/www/cv-react/app/app/lib/RDEvent.js",
+		"/Users/dani/www/cv-react/app/app/data/ColorsSet.js",
+		"/Users/dani/www/cv-react/app/app/dom/snippet/Clocker.js",
+		"/Users/dani/www/cv-react/app/app/dom/page/App.js",
+		"/Users/dani/www/cv-react/app/app/dom/btn/BtnLike.js",
+		"/Users/dani/www/cv-react/app/routes/api.js",
+		"/Users/dani/www/cv-react/app/app/Fooler.js",
+		"/Users/dani/www/cv-react/app/app/App.js",
+		"/Users/dani/www/cv-react/app/app/BtnLike.js",
+		"/Users/dani/www/cv-react/app/app/HelloWorld.js",
+		"/Users/dani/www/cv-react/app/node_modules/react/lib/BeforeInputEventPlugin.js",
+		"/Users/dani/www/luckysandwich/index.html",
+		"/Users/dani/www/luckysandwich/npm-debug.log"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451",
+			"/Users/dani/www/cv-react/app/app",
+			"/Users/dani/www/cv-heroku/src/scripts",
+			"/Users/dani/www/cv-react/app",
+			"/Users/dani/www/cv-react/app/app",
+			"/Users/dani/www/cv-react/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"insert",
+			"classNames",
+			"submit",
+			"layout",
+			"full",
+			"AppModal",
+			"appRouter",
+			"partial",
+			"\");\n",
+			"this.DevintModal",
+			"rdConf",
+			"fieldState",
+			"luckyFace",
+			"Foooo",
+			"ready",
+			"-form",
+			"form",
+			"trySubmit",
+			"validate",
+			"function ReactComponent",
+			"var LoginForm =",
+			"tgtApp",
+			"var LoginForm =",
+			"LoginForm",
+			"livere",
+			"devi",
+			"callback",
+			"/auth/callback",
+			"index.",
+			"index",
+			"22aaff",
+			"livere",
+			"userModel",
+			"ng-",
+			"ng",
+			"public",
+			"dist",
+			".ENV",
+			"connect",
+			"app/",
+			"App.",
+			"App",
+			"index.",
+			"vendors",
+			"/Users/dani",
+			"requestChange",
+			"START_KEYCODE",
+			"var START_KEYCODE = 229;\n",
+			"var",
+			"SyntheticEvent",
+			"SyntheticCompositionEvent",
+			"_dereq_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"DevintModal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/dani/Documents/mongo-uni/MongoDB_for_Node.js_Developers/week2/week_2_crud.66ba310e2451/creating_documents/creating_documents/creating_documents/insertMany-unordered-duperemoved.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1706,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										240,
+										246
+									],
+									[
+										481,
+										487
+									],
+									[
+										736,
+										742
+									],
+									[
+										979,
+										985
+									],
+									[
+										1211,
+										1217
+									],
+									[
+										1304,
+										1310
+									],
+									[
+										1589,
+										1595
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1284,
+								1284
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 376.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mongo-uni.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
